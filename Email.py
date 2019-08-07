@@ -3,10 +3,10 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 # Username
-user = "javax0110@gmail.com"
+user = "yourusername@gmail.com"
 
 # Password
-pwd = "hackathon"
+pwd = "password"
 driverpath = r"C:\Users\Hatim\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\selenium\webdriver\chrome/chromedriver.exe" # put your path to chromedriver 
 driver = webdriver.Chrome(driverpath)
 driver.maximize_window()
